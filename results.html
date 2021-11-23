@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+    <div id="results"></div>
+    <script>
+        const resultList = document.getElementById('results')
+        new URLSearchParams(window.location.search).forEach((value,name) => {
+            resultList.append(`${name}: ${value}`)
+            resultList.append(document.createElement('br'))
+        })
+    </script>
+    <div class="button">
+        <a href="index.html">Back to form</a>
+    </div>
+</body>
+</html>

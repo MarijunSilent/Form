@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="results.html" method="get">
+        <h1>Student Information</h1>
+        <div class="container" style="background-color: rgba(247, 240, 240, 0.377);">
+            <div class="input">
+                <div class="info">
+                    <label>First Name</label>
+                    <input name="First Name" type="text" placeholder="Enter First Name" required>
+                </div>
+                <div class="info">
+                    <label>Middle Name</label>
+                    <input name="Middle Name" type="text" placeholder="Enter Second Name" required>
+                </div>
+                <div class="info">
+                    <label>Last Name</label>
+                    <input name="Last Name" type="text" placeholder="Enter Last Name" required>
+                </div>
+                <div class="info">
+                    <label>Age</label>
+                    <input name="Age" type="number" placeholder="Enter Age" required>
+                </div>
+                <div class="info">
+                    <label>Email</label>
+                    <input name="Email" type="email" placeholder="Enter Email"required>
+                </div>
+                <div class="info">
+                    <label>Phone No.</label>
+                    <input name="Phone No.
+                    " type="tel" placeholder="Enter Phone"required>
+                </div>
+                
+            </div>
+            <div class="gender-select">
+                Gender
+            </div>
+            <div class="new-info">
+                <div class="info">
+                    <label>Male</label>
+                    <input name="Gender"type="radio" value="Male">
+                </div>
+                <div class="info">
+                    <label>Female</label>
+                    <input name="Gender"type="radio" value="Female">
+                </div>
+                <div class="info">
+                    <label>Year Level</label>
+                    <select name="Year Level">
+                        <option value="not specified">---</option>
+                        <option value="1st Year">1st</option>
+                        <option value="2nd Year">2nd</option>
+                        <option value="3rd Year">3rd</option>
+                        <option value="4th Year">4th</option>
+                        <option value="5th Year">5th</option>
+                    </select>
+                </div>
+                <div class="info">
+                    <label>Course Taken</label>
+                    <select name="Course Taken">
+                        <option value="not specified">---</option>
+                        <option value="Bachelor of Science in Information Technology">BSIT</option>
+                        <option value="Bachelor of Science in Electrical Engineering">BSEE</option>
+                        <option value="Bachelor of Science in Civil Engineering">BSCE</option>
+                        <option value="Bachelor of Science in Mechanical Engineering">BSME</option>
+                        <option value="Bachelor of Science in Nursing">BSN</option>
+                        <option value="Bachelor of Secondary Education">BSED</option>
+                        <option value="Bachelor of Science in Hospitality Management">BSHM</option>
+                        <option value="Bachelor of Science in Computer Science">BSCS</option>
+                        <option value="Bachelor of Science in Accountancy">BSA</option>
+                        <option value="Bachelor of Science in Business Administration">BSBA</option>
+                        <option value="Other">Not in the list</option>
+                    </select>
+                </div>
+                
+            </div>
+            <button type="submit">Submit</button>
+        </div>
+            
+    </form>
+        
+        
+</body>
+</html>
